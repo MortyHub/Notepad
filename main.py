@@ -1,5 +1,4 @@
 from tkinter import *
-from tkinter import scrolledtext
 import random
 
 # Creates window
