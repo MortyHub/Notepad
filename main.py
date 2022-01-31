@@ -19,7 +19,7 @@ def Savee():
     except:
         with open(f"{name}({str(random.randrange(1,1000))}).{extension}", "x") as f:
             f.write(textt)
-    
+
 # Notepad text area
 Tet = Text(window, height=200, width=200, font=("Times New Roman", 10))
 Tet.place(x=0,y=55)
