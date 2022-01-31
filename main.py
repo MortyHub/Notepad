@@ -29,7 +29,7 @@ fileEx = Text(window, height=1, width=25, font=("Times New Roman", 14))
 fileEx.place(x=180,y=0)
 
 Name = Text(window, height=1, width=25, font=("Times New Roman", 14))
-Name.place(x=180, y=25)
+Name.place(x=180, y=27)
 
 window.attributes('-fullscreen', True)
 window.mainloop()
