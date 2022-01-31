@@ -13,7 +13,7 @@ def Savee():
         with open(f"default.{extension}", "x") as f:
             f.write(textt)
     except:
-        with open(f"default{str(random.randrange(1,1000))}.{extension}", "x") as f:
+        with open(f"default({str(random.randrange(1,1000))}).{extension}", "x") as f:
             f.write(textt)
     
 
